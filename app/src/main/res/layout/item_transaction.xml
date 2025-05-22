@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/ic_transaction"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="12dp" />
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="Zomato Order" android:textSize="14sp" android:textStyle="bold" />
+        <TextView android:text="Food - 2 hrs ago" android:textSize="12sp" android:textColor="#888" />
+    </LinearLayout>
+
+    <TextView
+        android:text="₹850"
+        android:textSize="14sp"
+        android:textColor="#EF5350"
+        android:textStyle="bold"/>
+</LinearLayout>
